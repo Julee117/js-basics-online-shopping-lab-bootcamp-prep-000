@@ -23,7 +23,7 @@ function viewCart() {
     for (var i in cart) {
       var itemKey = cart[i];
       for (var key in itemKey) {
-        itemKeys.push(`{key} at /$${itemKey[key]}`);
+        itemKeys.push(`${key} at /$${itemKey[key]}`);
         // itemKeys.push(key + " at" + " $" + itemKey[key]);
       }
     }
